@@ -33,7 +33,7 @@ function set_heart_text(hearts)
         if tonumber(hearts) < range_0 then
             obs.obs_data_set_int(settings, "color", colors[1])
             changeHeartImage(
-                "https://github.com/Fast0n/osb-heartrate/raw/master/img/",
+                "https://raw.githubusercontent.com/Fast0n/obs-heartrate/master/",
                 urlColors[1])
             obs.obs_source_update(source, settings)
 
@@ -41,7 +41,7 @@ function set_heart_text(hearts)
             obs.obs_data_set_int(settings, "color", colors[2])
 
             changeHeartImage(
-                "https://github.com/Fast0n/osb-heartrate/raw/master/img/",
+                "https://raw.githubusercontent.com/Fast0n/obs-heartrate/master/",
                 urlColors[2])
             obs.obs_source_update(source, settings)
 
@@ -49,7 +49,7 @@ function set_heart_text(hearts)
             obs.obs_data_set_int(settings, "color", colors[3])
 
             changeHeartImage(
-                "https://github.com/Fast0n/osb-heartrate/raw/master/img/",
+                "https://raw.githubusercontent.com/Fast0n/obs-heartrate/master/",
                 urlColors[3])
             obs.obs_source_update(source, settings)
 
@@ -57,7 +57,7 @@ function set_heart_text(hearts)
             obs.obs_data_set_int(settings, "color", colors[4])
 
             changeHeartImage(
-                "https://github.com/Fast0n/osb-heartrate/raw/master/img/",
+                "https://raw.githubusercontent.com/Fast0n/obs-heartrate/master/",
                 urlColors[4])
             obs.obs_source_update(source, settings)
 
